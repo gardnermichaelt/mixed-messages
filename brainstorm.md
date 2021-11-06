@@ -15,3 +15,11 @@ NPC interaction in games hasn't really been pushed beyond basic numbered dialog 
 - is the context in which the player is interacting with the character making normal sense?
 - does the player introduce themselves to the player?
 - does the character understand what the player is saying?
+
+-------------
+## Approach ideas
+Example scenario: Player approaches character in town and speaks. **If** player is known to Character through previous interaction **and** **if** the player says something that makes sense they will respond according to how the outcomes of previous interactions went. Depending on that character's natural disposition, owing to a variety of factors including upbringing.
+
+
+## Implementation
+Character will be an object with defined personality traits, canned catch phrases, a general mood or disposition or a probability of being in a certain mood. Different events in the world also effect character mood and disposition and their feelings towards the character.
